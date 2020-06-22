@@ -1,5 +1,7 @@
 # Computer-Architecture
 
+This project was for me and my partner's ECE369 course. We created a 32 Bit Processor which interprets and processes MIPS instructions utilizing pipelining, data forwarding, and data hazards. This was created using Verilog, to setup the processor create a Verilog project and import the files, add the MIPS instruction in data memory (in hex) to be processed, a converter program from MIPS instructions to hex can be used to accomplish this. 
+
 # 10/26/19 - Saturday
 
 # Goals
