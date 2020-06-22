@@ -11,8 +11,8 @@
 	- [x] Connected almost all wires to top for datapath to work in labs 15-18
 		- [x] Pipeline are being implemented correctly
 	- [x] Add `AND` module for branch to execute correctly.
-	- [ ] Implement `jump` instructions
-		- [ ] Create another `ADDER` in Execution stage for `jump` instrucitons.
+	- [x] Implement `jump` instructions
+		- [x] Create another `ADDER` in Execution stage for `jump` instrucitons.
 		
 # Issues
 	- May need to change bit width for ALUOp that goes from `Control` to `ALU`
@@ -30,8 +30,8 @@
 # Issues
 	Ask him about flushing
 		- is it neccessary for this lab
-	Ask Sahil about jumping isntructions
-		- ask if he can explain again about jr
+	Ask Sahil about jumping instructions
+		- ask if he can explain again about jr MIPS instruction
 
 # Notes
 	- Will need to flush pipeline registers when jumping
