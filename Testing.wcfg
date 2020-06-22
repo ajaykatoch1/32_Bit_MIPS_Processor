@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="7811166666fs"></ZoomStartTime>
+      <ZoomEndTime time="7879766667fs"></ZoomEndTime>
+      <Cursor1Time time="7960000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="157"></NameColumnWidth>
+      <ValueColumnWidth column_width="76"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="29" />
+   <wvobject fp_name="/top_tb/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Test/PCAdder_1/PCAddResult" type="array">
+      <obj_property name="ElementShortName">PCAddResult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCAddResult[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Test/ProgramCounter_1/PCResult" type="array">
+      <obj_property name="ElementShortName">PCResult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCResult[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Test/ProgramCounter_1/Address" type="array">
+      <obj_property name="ElementShortName">Address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Address[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Test/InstructionMemory_1/Instruction" type="array">
+      <obj_property name="ElementShortName">Instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Test/Instruction_Fetch_Decode_Register/InstructionIn" type="array">
+      <obj_property name="ElementShortName">InstructionIn[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstructionIn[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Test/Instruction_Fetch_Decode_Register/InstructionOut" type="array">
+      <obj_property name="ElementShortName">InstructionOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstructionOut[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Test/Instruction_Decode_Execute_Register/EX_Instruction" type="array">
+      <obj_property name="ElementShortName">EX_Instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_Instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Test/RegisterFile_1/ReadRegister1" type="array">
+      <obj_property name="ElementShortName">ReadRegister1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadRegister1[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Test/RegisterFile_1/ReadRegister2" type="array">
+      <obj_property name="ElementShortName">ReadRegister2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadRegister2[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Test/RegisterFile_1/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Test/RegisterFile_1/ReadData1" type="array">
+      <obj_property name="ElementShortName">ReadData1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData1[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Test/RegisterFile_1/ReadData2" type="array">
+      <obj_property name="ElementShortName">ReadData2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData2[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Test/ALU32Bit_1/A" type="array">
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Test/ALU32Bit_1/B" type="array">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Test/ALU32Bit_1/ALUlo" type="array">
+      <obj_property name="ElementShortName">ALUlo[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUlo[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Test/ALU32Bit_1/ALUhi" type="array">
+      <obj_property name="ElementShortName">ALUhi[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUhi[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Test/ALU32Bit_1/ALUInstruction" type="array">
+      <obj_property name="ElementShortName">ALUInstruction[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUInstruction[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Test/ALU32Bit_1/ALUResult" type="array">
+      <obj_property name="ElementShortName">ALUResult[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResult[63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Test/ALU32Bit_1/ALUResult2" type="array">
+      <obj_property name="ElementShortName">ALUResult2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResult2[63:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Test/RegisterFile_1/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Test/RegisterFile_1/WriteData" type="array">
+      <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Test/RegisterFile_1/WriteRegister" type="array">
+      <obj_property name="ElementShortName">WriteRegister[4:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteRegister[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Test/ProgramCounter_1/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Test/ALU32Bit_1/ALUhi" type="array">
+      <obj_property name="ElementShortName">ALUhi[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUhi[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Test/ALU32Bit_1/ALUlo" type="array">
+      <obj_property name="ElementShortName">ALUlo[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUlo[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Test/SignExtension_1/in" type="array">
+      <obj_property name="ElementShortName">in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">in[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Test/SignExtension_1/out" type="array">
+      <obj_property name="ElementShortName">out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>
